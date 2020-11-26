@@ -5,3 +5,4 @@
 *.suo
 /Xml2Ds/bin/Debug
 /Xml2Ds/obj/Debug
+/Xml2Ds/Xml2Ds.csproj.user
