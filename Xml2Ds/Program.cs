@@ -16,7 +16,7 @@ namespace Xml2Ds
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmSemi());
+            Application.Run(new frmDs());
         }
     }
 }

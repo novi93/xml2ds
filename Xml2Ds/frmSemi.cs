@@ -22,10 +22,6 @@ namespace Xml2Ds
             model = new Model();
         }
 
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -48,11 +44,6 @@ namespace Xml2Ds
             var contactBindingSource = new BindingSource();
             grdLeft.DataSource = contactBindingSource;
             contactBindingSource.DataSource = model.dvLeft;
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            //LoadFile();
         }
 
         private void LoadFile()
